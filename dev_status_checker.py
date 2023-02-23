@@ -37,7 +37,7 @@ async def main_devchecker():
                         bot_info = bot
 
                     try:
-                        yyy_teletips = await app.send_message(bot, "/start")
+                        yyy_teletips = await app.send_message(bot, "/vstart")
                         aaa = yyy_teletips.id
                         await asyncio.sleep(15)
                         zzz_teletips = app.get_chat_history(bot, limit = 1)
